@@ -86,3 +86,10 @@ case class Recommendation(mid:Int,score:Double)
   * @param recs 排名前十的电影id以及平均分
   */
 case class GenresStatistics(genre:String,recs:Seq[Recommendation])
+
+/**
+  * 离线用户推荐对象
+  * @param uid
+  * @param recs
+  */
+case class OfflineUserRecommendation(uid:Int,recs:Seq[Recommendation])

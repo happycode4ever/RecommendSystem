@@ -18,6 +18,8 @@ object GlobalConf{
     "mongodb.collection.RateMoreMoviesRecently" -> "RateMoreMoviesRecently",
     "mongodb.collection.AverageMoviesScore" -> "AverageMoviesScore",
     "mongodb.collection.GenresTopMovies" -> "GenresTopMovies",
+    //离线推荐表位置
+    "mongodb.collection.UserRecs" -> "UserRecs",
 
     //es相关配置
     "es.cluster.name" -> "es-cluster",
