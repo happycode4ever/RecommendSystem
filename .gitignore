@@ -45,3 +45,4 @@ help.md
 /node_modules/
 /dist/
 /build/
+/.idea/
