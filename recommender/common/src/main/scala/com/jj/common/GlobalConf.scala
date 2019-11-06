@@ -20,6 +20,7 @@ object GlobalConf{
     "mongodb.collection.GenresTopMovies" -> "GenresTopMovies",
     //离线推荐表位置
     "mongodb.collection.UserRecs" -> "UserRecs",
+    "mongodb.collection.MovieRecs" -> "MovieRecs",
 
     //es相关配置
     "es.cluster.name" -> "es-cluster",

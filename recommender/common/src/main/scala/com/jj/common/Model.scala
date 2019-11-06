@@ -93,3 +93,10 @@ case class GenresStatistics(genre:String,recs:Seq[Recommendation])
   * @param recs
   */
 case class OfflineUserRecommendation(uid:Int,recs:Seq[Recommendation])
+
+/**
+  * 离线电影推荐对象
+  * @param uid
+  * @param recs
+  */
+case class OfflineMovieRecommendation(mid:Int,recs:Seq[Recommendation])
