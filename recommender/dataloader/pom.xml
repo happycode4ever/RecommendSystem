@@ -81,12 +81,16 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
+                <!-- assembly插件必须有配置信息，一般包含主类信息以及是否需要全量包 -->
                 <configuration>
                     <archive>
                         <manifest>
                             <mainClass>com.jj.dataloader.DataLoader</mainClass>
                         </manifest>
                     </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
                 </configuration>
             </plugin>
         </plugins>
