@@ -16,6 +16,7 @@
         <module>statistics</module>
         <module>offline</module>
         <module>streaming</module>
+        <module>kafkastream</module>
     </modules>
     <dependencyManagement>
 
