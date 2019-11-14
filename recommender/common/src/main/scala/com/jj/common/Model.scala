@@ -100,3 +100,12 @@ case class OfflineUserRecommendation(uid:Int,recs:Seq[Recommendation])
   * @param recs
   */
 case class OfflineMovieRecommendation(mid:Int,recs:Seq[Recommendation])
+
+/**
+  * 实时推荐中，用户评分后实时推送的kafka消息
+  * @param uid
+  * @param mid
+  * @param score
+  * @param timestamp
+  */
+case class StreamKafkaRecord(uid:Int,mid:Int,score:Double,timestamp:Int)

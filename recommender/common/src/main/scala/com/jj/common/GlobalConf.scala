@@ -21,7 +21,11 @@ object GlobalConf{
     //离线推荐表位置
     "mongodb.collection.UserRecs" -> "UserRecs",
     "mongodb.collection.MovieRecs" -> "MovieRecs",
-
+    //实时推荐配置
+    "kafka.topic" -> "recommend",
+    "redis.host" -> "192.168.1.127",
+    "redis.recently.rating.prefix" -> "uid:",
+    "mongodb.collection.StreamRecs" -> "StreamRecs",
     //es相关配置
     "es.cluster.name" -> "es-cluster",
     "es.nodes" -> "192.168.1.127",
