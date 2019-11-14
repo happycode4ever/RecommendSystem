@@ -37,7 +37,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.atguigu.kafkastream.Application</mainClass>
+                            <mainClass>com.jj.kafkastream.Application</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
