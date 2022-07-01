@@ -14,7 +14,7 @@
     <properties>
         <mongodb-spark.version>2.0.0</mongodb-spark.version>
         <casbah.version>3.1.1</casbah.version>
-        <kafka.version>0.10.2.1</kafka.version>
+        <kafka.version>0.10.2.2</kafka.version>
         <jedis.version>2.9.0</jedis.version>
     </properties>
 
